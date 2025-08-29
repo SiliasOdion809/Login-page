@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    padding: 20px 18px;
+}
+
+.heading {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.paragraph {
+    text-align: center;
+    width: 300px;
+    margin: 20px auto 40px;
+}
+
+.call-to-action {
+    background-color: rgb(94, 4, 94);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.call-to-action > p {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form-container {
+    background-color: grey;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.form-container form input {
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-container form button {
+    background-color: rgb(94, 4, 94);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.form-container form button:hover {
+    background-color: purple;
+    cursor: pointer;
+}
+.form-container form small {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+@media screen and (condition) {
+  /* CSS Rules */
+}
